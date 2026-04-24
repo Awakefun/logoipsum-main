@@ -28,7 +28,7 @@ main {
   top: 0;
 }
 .header__container,
-.hero__container, .companies__container, .features__container {
+.hero__container, .companies__container, .features__container, .mini-features__container, .subscription__container {
   max-width: 1069px;
   margin-inline: auto;
 }
@@ -307,4 +307,9 @@ margin-top: 36px;
 .subscription__plan.active {
     background-color: var(--orange);
 }
-.subscription__plan.active
+
+.subscription__plan.active .subscription__plan-title,
+.subscription__plan.active .subscription__plan-price,
+.subscription__plan.active .subscription__plan-features {
+    color: white;
+}
