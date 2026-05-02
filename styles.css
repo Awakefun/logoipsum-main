@@ -248,6 +248,7 @@ padding-block: 32px;
     padding: 17px 56px;
     border-radius: 0 10px 10px 0;
     color: var(--dark);
+    transition: all 0.3s;
 }
 .subscription__tab.active {
     background: var(--purple);
@@ -310,6 +311,7 @@ padding-block: 32px;
 letter-spacing: -0.53px;
 font-weight: 700;
 margin-top: 36px;
+transition: all 0.3s;
 }
 .subscription__plan.active {
     background-color: var(--orange);
@@ -326,5 +328,15 @@ margin-top: 36px;
 
 .subscription__plan.active .subscription__plan-button {
     background-color: #9F3919;
+    color: white;
+}
+
+.subscription__plan-button:hover {
+background-color:  #9F3919;
+color: white;
+}
+
+.subscription__tab:hover {
+    background-color: #5454d4;
     color: white;
 }
